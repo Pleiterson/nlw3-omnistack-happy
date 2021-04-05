@@ -1,85 +1,85 @@
 #page-landing {
-    width: 100vw;
+  width: 100vw;
     height: 100vh;
-    /* Gradiente / Blue */
-    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* Gradiente / Blue */
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #page-landing .content-wrapper {
-    position: relative;
-    width: 100%;
-    max-width: 1100px; /* máximo de largura que irá ocupar na tela */
-    height: 100%;
-    max-height: 680px; /* original é 680px */
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: space-between;
+  position: relative;
+  width: 100%;
+  max-width: 1100px; /* máximo de largura que irá ocupar na tela */
+  height: 100%;
+  max-height: 680px; /* original é 680px */
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
 
-    /* usado originalmente na NLW3 */
-    background: url('../../assets/images/landing.svg') no-repeat 80% center;
+  /* usado originalmente na NLW3 */
+  background: url('../../assets/images/landing.svg') no-repeat 80% center;
 }
 
 #page-landing .content-wrapper main {
-    max-width: 350px;
+  max-width: 350px;
 }
 
 #page-landing .content-wrapper main h1 {    
-    font-size: 76px;
-    font-weight: 900;
-    line-height: 70px;
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 70px;
 }
 
 #page-landing .content-wrapper main p {    
-    margin-top: 40px;
-    font-size: 24px;    
-    line-height: 34px;
+  margin-top: 40px;
+  font-size: 24px;    
+  line-height: 34px;
 }
 
 /* criado esta estilização, visto que a original cortou o cabelo da menina rosa na imagem */
 /* .content-wrapper .imageLanding {
-    position: absolute;
-    width: 480px;
-    height: 580px;
-    left: 480px;
-    top: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+  position: absolute;
+  width: 480px;
+  height: 580px;
+  left: 480px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;    
 } */
 
 .content-wrapper .location {
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 24px;
-    line-height: 34px;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 24px;
+  line-height: 34px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
 
 .content-wrapper .location strong {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .content-wrapper .enter-app {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 80px; /* original é 80px */
-    height: 80px; /* original é 80px */
-    background: #FFD666;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.2s;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 80px; /* original é 80px */
+  height: 80px; /* original é 80px */
+  background: #FFD666;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
 }
 
 .content-wrapper .enter-app:hover {
-    background: #96FEFF;
+  background: #96FEFF;
 }
