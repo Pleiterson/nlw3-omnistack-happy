@@ -20,6 +20,19 @@
 
 A Trilha OmniStack do Next Level Week da [Rockeseat](https://rocketseat.com.br/) foi desenhada para quem já domina o JavaScript, o CSS e o HTML, e tem uma boa base de SQL, ou seja, para quem já desenvolveu aplicações pra web.
 
+Para rodar o back-end
+
+```
+cd backend
+
+yarn dev
+```
+
+Para rodar o projeto front-end. Deve digitar os comandos na pasta raíz
+```
+yarn start
+```
+
 <img src="./src/assets/readme/projeto.gif" alt="Happy" title="Happy"><br><br>
 
 
